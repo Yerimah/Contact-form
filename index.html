@@ -291,6 +291,42 @@
       </div>
     </main>
 
+    <footer>
+      <div class="contact-form">
+          <a id="contact-form"></a>
+          <div class="contact-section-01">
+          <p class="p-contact">I'm always interested in hearing about 
+              new projects, so if you'd like to chat 
+              please get in.</p>
+          
+      <form action="https://formspree.io/f/mlezeewv" method="POST" id="form">
+          <label for="name"></label>
+          <input 
+          type="text" 
+          id="name" 
+          placeholder="Full name"  
+          name="full-name" maxlength="30" required>
+          <label for="email"></label>
+          <input 
+          type="email" 
+          id="email" 
+          placeholder="Email address" 
+          name="email" required>
+          <label for="text"></label>
+          <textarea 
+          name="message" 
+          id="text" 
+          cols="30" rows="10" 
+          placeholder="Enter text here" maxlength="500" required></textarea>
+
+          <button type="submit" class="contact-btn">Get in touch</button>
+          <div id="error" class="invalid"></div>
+      </form>
+      </div>
+      <hr class="lastline">
+      </div>
+      </footer>
+
     <script
       src="https://kit.fontawesome.com/e966a3bd22.js"
       crossorigin="anonymous"
